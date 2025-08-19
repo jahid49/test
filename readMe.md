@@ -1,0 +1,21 @@
+Git & Github
+
+
+git init
+
+git status 
+git add <filename>
+git add *
+git add .
+git add --all
+git commit -m "Commit message"
+
+git commit
+git push origin master
+git remote add origin <server>
+
+
+git config user.name "Jahid" 
+git config user.email “jahidcse9b@gmail.com”
+
+git log
