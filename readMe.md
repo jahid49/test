@@ -26,4 +26,24 @@ git checkout main
 git branch branch_name
 git branch
 git checkout branch_name
+git checkout -b branch-name
+git merge branch_name
+git branch -d branch_name
+git branch -D branch_name
+git remote -v
+git remote add origin <url>
+git remote remove origin
+git remote set-url origin <new-url>
+git pull origin main
+git push origin main
+git push origin master
+git push origin branch_name
 
+git diff 34432c0 fac6322
+git diff
+git clone <repository-url>
+git clone 
+
+git add --all
+git commit -m “Name and Repo Added”
+git push origin master
