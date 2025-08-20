@@ -47,3 +47,31 @@ git clone
 git add --all
 git commit -m “Name and Repo Added”
 git push origin master
+
+git restore <file_name>
+git restore <directory_name>
+git restore .
+git restore --staged <file>
+git restore --staged <directory>
+git restore --staged .
+git restore --source <commit> <file>
+
+git stash
+git stash pop
+git stash apply
+git stash list
+git stash drop
+git stash clear
+git stash -u
+
+git reset <commit_id>
+git reset <commit_id> --hard
+git reset <file>
+git reset --hard <commit>
+git reset --soft <commit>
+
+git revert <commit_id>
+git rebase main
+
+git merge branch_name --squash
+git commit -m “new feature introduced”
