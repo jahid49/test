@@ -13,3 +13,8 @@ print("This script will help me practice Python basics.")
 print("I hope to become proficient in Python soon.")
 print("Thank you for reading my script!")
 print("Goodbye for now!")
+
+
+print("New branch created for testing purposes.")
+print("This is a test for the new branch.")
+print("Branching in Git allows for better collaboration.")

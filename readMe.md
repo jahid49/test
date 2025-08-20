@@ -19,3 +19,11 @@ git config user.name "Jahid"
 git config user.email “jahidcse9b@gmail.com”
 
 git log
+git log --oneline
+git checkout 9817783   
+git checkout main
+
+git branch branch_name
+git branch
+git checkout branch_name
+
