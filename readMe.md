@@ -45,8 +45,13 @@ git clone <repository-url>
 git clone 
 
 git add --all
-git commit -m “Name and Repo Added”
+git commit -m “write commit”
 git push origin master
+git commit --amend
+
+git tag v.1.0.0 1e1084ba661382b81272cc70c1ec458c45348e76 
+git tag version commit_id
+
 
 git restore <file_name>
 git restore <directory_name>
@@ -68,6 +73,7 @@ git reset <commit_id>
 git reset <commit_id> --hard
 git reset <file>
 git reset --hard <commit>
+git reset --hard commit_id
 git reset --soft <commit>
 
 git revert <commit_id>
